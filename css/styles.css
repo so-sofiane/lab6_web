@@ -1,0 +1,89 @@
+body {
+    background-color: #8a8a8b; /* Bleu foncé */
+}
+
+nav ul 
+{
+  margin: 10;
+  padding: 5px;
+}
+
+nav li
+{
+  float: left;
+  margin-right: 40px;
+  margin-left: 40px;
+  text-transform: uppercase;
+}
+
+#excel-form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #666060;
+    border-radius: 5px;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #666060;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+input[type="reset"] {
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+#main-nav ul li {
+    padding: 0 10px;
+}
+
+#main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px;
+}
+
+#output {
+    margin-top: 20px;
+}
+

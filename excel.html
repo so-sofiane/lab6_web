@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Excel Functions</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <nav id="main-nav">
+
+            <h1>Excel functions</h1>
+        </nav>
+    </header>
+    <main>
+        <form id="excel-form" name="excelform">
+            <label for="numbers">Numbers (separated by spaces):</label><br>
+            <input type="text" id="numbers" name="numbers"><br>
+
+            <label>Excel Functions:</label><br>
+            <input type="radio" id="autosum" name="excel" value="AutoSum" checked>
+            <label for="autosum">AutoSum</label><br>
+            <input type="radio" id="max" name="excel" value="Max">
+            <label for="max">Max</label><br>
+            <input type="radio" id="min" name="excel" value="Min">
+            <label for="min">Min</label><br>
+            <input type="radio" id="average" name="excel" value="Average">
+            <label for="average">Average</label><br>
+
+            <input type="button" id="calculateBtn" value="Calculate" onclick="myExcelFuns()">
+
+        
+        </form>
+        <div id="output">
+            <!-- L'endroit où l'utilisateur verra le résultat -->
+        </div>
+    </main>
+    <footer>
+        <p>
+        ILAC & EFREI - HTML, CSS, and JavaScript Assignment - CHABAB sofiane (sofiane.chabab@efrei.net), DEBBAHI Adem (adem.debbahi@efrei.net).
+        </p>
+    </footer> 
+    <script src="C:\Users\sofia\OneDrive\Bureau\ECOLE\cours L3\web\lab6\Assignment Root Folder\js\script.js"></script>
+    <!-- Lien vers votre fichier JavaScript externe -->
+</body>
+</html>
